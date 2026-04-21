@@ -1,12 +1,15 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root.theme-light .rec-label {
+  display: none;
+}
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --color-primary: #FF8DCB;
+  --bg-color-primary: #FFF1F7;
+  --color-text-secondary: #FFC2E6;
+  --text-color-primary: #353430;
+  --bg-image-header: url('../images/cover-image-light.png');
+  --main-title-color: var(--text-color-primary);
+  --color-theme-switcher: var(--text-color-primary);
+  --color-theme-switcher-rgb: 53, 52, 48;
+  --color-text-inverse: var(--text-color-primary);
 }

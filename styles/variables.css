@@ -1,4 +1,19 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-primary: #FF0070;
+  --bg-color-primary: #000028;
+  --color-text-secondary: #DB00FF;
+  --text-color-primary: #F1B2CE;
+  --spacing-page-primary: 10px;
+  --spacing-page-padding: var(--spacing-page-primary);
+  --spacing-page-margin: var(--spacing-page-primary);
+  --spacing-page-gap: var(--spacing-page-primary);
+  --bg-image-header: url('../images/cover-image-dark.png');
+  --page-bg-color: var(--bg-color-primary);
+  --text-bg-color : var(--color-primary);
+  --title-shadow-color: var(--color-primary);
+  --main-title-color: var(--color-primary);
+  --color-link-shadow: var(--color-primary);
+  --color-theme-switcher: var(--color-primary);
+  --color-theme-switcher-rgb: 255, 0, 112;
+  --color-text-inverse: var(--bg-color-primary);
+}
