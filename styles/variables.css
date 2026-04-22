@@ -17,3 +17,14 @@
   --color-theme-switcher-rgb: 255, 0, 112;
   --color-text-inverse: var(--bg-color-primary);
 }
+
+@media (width >= 768px) {
+
+/* !-- Переопределение для отступов -- */
+
+  :root {
+  --spacing-page-padding: calc(var(--spacing-page-primary) * 2 );
+  --spacing-page-margin: calc(var(--spacing-page-primary) * 1.5 );
+  --spacing-page-gap: calc(var(--spacing-page-primary) * 2 );
+  }
+}

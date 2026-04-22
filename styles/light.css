@@ -13,3 +13,20 @@
   --color-theme-switcher-rgb: 53, 52, 48;
   --color-text-inverse: var(--text-color-primary);
 }
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto .rec-label {
+    display: none;
+  }
+  :root.theme-auto {
+  --color-primary: #FF8DCB;
+  --bg-color-primary: #FFF1F7;
+  --color-text-secondary: #FFC2E6;
+  --text-color-primary: #353430;
+  --bg-image-header: url('../images/cover-image-light.png');
+  --main-title-color: var(--text-color-primary);
+  --color-theme-switcher: var(--text-color-primary);
+  --color-theme-switcher-rgb: 53, 52, 48;
+  --color-text-inverse: var(--text-color-primary);
+  }
+}
