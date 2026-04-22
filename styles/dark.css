@@ -18,4 +18,8 @@
   --color-theme-switcher: var(--color-primary);
   --color-theme-switcher-rgb: 255, 0, 112;
   --color-text-inverse: var(--bg-color-primary);
+
+  .rec-label {
+    display: flex;
+  }
 }

@@ -15,7 +15,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root .rec-label {
+  .rec-label {
     display: none;
   }
   :root {
