@@ -1,8 +1,6 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root.theme-dark  .rec-label {
+    display: flex;
+  }
 
 :root.theme-dark {
   --color-primary: #FF0070;
@@ -18,8 +16,4 @@
   --color-theme-switcher: var(--color-primary);
   --color-theme-switcher-rgb: 255, 0, 112;
   --color-text-inverse: var(--bg-color-primary);
-
-  .rec-label {
-    display: flex;
-  }
 }
